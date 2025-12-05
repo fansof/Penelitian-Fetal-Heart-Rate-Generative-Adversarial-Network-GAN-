@@ -220,8 +220,8 @@ def train(
 
 if __name__ == "__main__":
     # EDIT THESE TWO PATHS to match your machine
-    data_path = "/home/fauzi/Documents/generateGAN_untukSKRIPSI/1APREPROCESSEDFILE/PREPROCESSED_OKTOBER"
-    ph_csv    = "/home/fauzi/Documents/SKRIPSI AAMIIN/wfdbpy/fhrdataNEW/ph_labels.csv"
+    data_path = "/path/to/.csv"
+    ph_csv    = "/path/to/ph_labels.csv"
 
     train(
         data_path=data_path,
@@ -235,3 +235,4 @@ if __name__ == "__main__":
         featmatch_alpha=0.0,
         seed=81
     )
+
