@@ -1275,10 +1275,10 @@ def main():
         'use_pathological_samples': 100,
 
         # Paths
-        'real_data_folder': '/home/fauzi/Documents/generateGAN_untukSKRIPSI/1APREPROCESSEDFILE/PREPROCESSED_OKTOBER',
-        'real_ph_file': '/home/fauzi/Documents/SKRIPSI AAMIIN/wfdbpy/fhrdataNEW/ph_labels.csv',
-        'synthetic_normal_folder': '/home/fauzi/Documents/generateGAN_untukSKRIPSI/1a-GENERATE SAMPLE LAST/CTGGAN715/window/synthetic_normal_windowed_ctgganph715',
-        'synthetic_abnormal_folder': '/home/fauzi/Documents/generateGAN_untukSKRIPSI/1a-GENERATE SAMPLE LAST/CTGGAN715/window/synthetic_abnormal_windowed_ctgganph715',
+        'real_data_folder': '/path/to/.csv',
+        'real_ph_file': '/path/to/ph_labels.csv',
+        'synthetic_normal_folder': '//path/to/.csv/synthetic_normal_windowed_ctgganph715',
+        'synthetic_abnormal_folder': '/path/to/.csv/synthetic_abnormal_windowed_ctgganph715',
 
         # Synthetic data limits for scenario 2 and 4
         'synthetic_normal_limit': 500,
@@ -1628,3 +1628,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
