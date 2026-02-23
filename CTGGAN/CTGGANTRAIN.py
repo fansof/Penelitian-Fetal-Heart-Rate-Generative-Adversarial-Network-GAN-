@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader
 from CTGGAN1000 import Generator1000 as Generator, Discriminator1000 as Discriminator
 from windowed_dataset import WindowedFromLongDataset
 
-# IMPORTANT: your file must be named exactly 'octoberpreprocessing.py'
+# IMPORTANT: Path to .csv must be a processed raw .csv (after sequence handling, etc.)
 # and expose a class/function 'myDataset' that yields (x, y):
 #   x: FloatTensor (1, 1000) in [-1, 1]
 #   y: int label in {0,1}
@@ -235,4 +235,5 @@ if __name__ == "__main__":
         featmatch_alpha=0.0,
         seed=81
     )
+
 
